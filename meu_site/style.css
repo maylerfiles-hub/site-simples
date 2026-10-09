@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin:0; 
+    padding:0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    color: rgb(8, 62, 161);
+}
+
+header {
+    background-color: #cdcee2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:150px;
+    padding-right:150px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+header a {
+     color: #2c1ee9;
+    font-weight: 600;
+    padding: 0 32px;
+    text-decoration: none;
+}
+
+  header nav a:hover {
+    text-decoration: underline;/*definindo o sublinhado dos links do header ao passar o mouse */
+    color: rgb(40,283,93)/*definindo a cor do texto dos links do header ao passar o mouse */
+
+}
+/* fim do CSS do header */
+
+
+
+/*Seção Inicial*/
+#inicio{ 
+    display: flex;
+    align-items: center;/*alinhamento vertical dos elementos da seção inicial */
+    gap: 32px; /*espaçamento entre os elementos da seção inicial */
+    padding: 60px 80px 190px 80px; /*definindo o espaçamento da seção inicial */
+    justify-content:center;/*alinhamento horizontal dos elementos da seção inicial */
+
+
+
+}
+h1{
+    font-weight: 600;/*definindo a espessura da fonte do título */
+    font-size: 32px;/*definindo o tamanho da fonte do título */
+    margin-bottom: 40px;/*definindo o espaçamento inferior do título */
+    max-width: 600px;/*definindo a largura máxima do título */
+}
+.paragrafo{
+    max-width: 300px;/*definindo a largura máxima do parágrafo */
+    font-size: 18px;/*definindo o tamanho da fonte do parágrafo */
+    line-height: 1.5;/*definindo o espaçamento entre as linhas do parágrafo */
+    margin-bottom: 32px;/*definindo o espaçamento inferior do parágrafo */
+    text-align: justify;/*definindo o alinhamento do texto do parágrafo */
+    font-weight: 400;/*definindo a espessura da fonte do parágrafo */
+}
+
+.botao{
+    background-color: lightgray;/*definindo a cor de fundo do botão */
+    padding: 16px 32px;/*definindo o espaçamento interno do botão */
+    border-radius: 8px;/*definindo o arredondamento dos cantos do botão */
+    color: #2a0dcc;/*definindo a cor do texto do botão */
+    text-decoration: none;/*removendo o sublinhado do link */
+    font-weight: 500;/*definindo a espessura da fonte do botão */
+    font-size: 16px;/*definindo o tamanho da fonte do botão */
+
+}
+.botao2{
+
+    background-color: transparent;/*definindo a cor de fundo do botão */
+    padding: 16px 32px;/*definindo o espaçamento interno do botão */
+    border-radius: 8px;/*definindo o arredondamento dos cantos do botão */
+    color: #2c1ee9;/*definindo a cor do texto do botão */
+    text-decoration: none;/*removendo o sublinhado do link */
+    font-weight: 600;/*definindo a espessura da fonte do botão */
+    font-size: 16px;/*definindo o tamanho da fonte do botão */
+    text-underline-offset: 4px;/*definindo a distância do sublinhado do link */
+    text-decoration: underline;/*definindo o sublinhado do link */
+
+}
+
+.imagem{
+    position: absolute;/*definindo a posição da imagem */
+    bottom: 0;/*definindo a posição da imagem */
+    left: 0;
+    width: 100%;/*definindo a largura da imagem */
+    z-index: -10;
+}
+    /*fim da Seção Inicial*/
+
+
+/*Seção serviços*/
+#servicos{
+    display: flex;
+    align-items: center;/*alinhamento vertical dos elementos da seção clinica */
+    gap: 40px; /*espaçamento entre os elementos da seção clinica */
+    padding: 40px 80px; /*definindo o espaçamento da seção clinica */
+    justify-content:center;/*alinhamento horizontal dos elementos da seção clinica */
+}
+#servicos li{
+    font-size: 16px;/*definindo o tamanho da fonte dos itens da lista *//*definindo o espaçamento entre as linhas dos itens da lista */
+    margin-bottom: 16px;/*definindo o espaçamento inferior dos itens da lista */
+    font-weight: 400;/*definindo a espessura da fonte dos itens da lista */
+    margin-left: 32px;/*definindo o espaçamento esquerdo dos itens da lista */
+
+}
+/* fim da Seção serviços*/
+
+/*Seção Produtos*/
+#produtos{
+    text-align: center;
+    padding: 64px 80px; /*definindo o espaçamento da seção farmacia */
+    justify-content:center;/*alinhamento horizontal dos elementos da seção farmacia */
+}
+
+#produtos h2{
+    font-weight: 600;/*definindo a espessura da fonte do título */
+    font-size: 32px;/*definindo o tamanho da fonte do título */
+    margin-bottom: 32px;/*definindo o espaçamento inferior do título */
+    max-width: 400px;/*definindo a largura máxima do título */
+    margin: 0 auto;/*centralizando o título */
+}
+#produtos .paragrafo{
+    max-width: 950px;/*definindo a largura máxima do parágrafo */
+    font-size: 18px;/*definindo o tamanho da fonte do parágrafo */
+    line-height: 1.5;/*definindo o espaçamento entre as linhas do parágrafo */
+    margin-bottom: 32px;/*definindo o espaçamento inferior do parágrafo */
+    text-align: justify;/*definindo o alinhamento do texto do parágrafo */
+    font-weight: 400;/*definindo a espessura da fonte do parágrafo */
+    margin: 0 auto;/*centralizando o parágrafo */
+}
+/* fim da seção produtos*/
+
+#duvidas{
+    text-align: left;
+    padding: 28px 50px; /*definindo o espaçamento da seção duvidas */
+    justify-content:center;/*alinhamento horizontal dos elementos da seção duvidas */
+    margin-left: 25px;/*definindo o espaçamento esquerdo da seção duvidas */
+    display: flex;/*definindo o layout da seção duvidas */
+    padding: 38px 50px;/*definindo o espaçamento da seção duvidas */
+}
+
+/* Fim da Seção Inicial*/
+
+   
